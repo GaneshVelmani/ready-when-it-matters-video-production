@@ -1,0 +1,41 @@
+{
+  "project": "Ready When It Matters — male character Stage 2B import preflight",
+  "status": "IMPORT_CANDIDATE_ONLY_NOT_RIG_READY",
+  "tool": "Rigby2D",
+  "source_repository": "https://github.com/jaisurya-dev-art/rigby2d",
+  "editor": "https://rigby2d.com/editor/",
+  "canvas": [
+    1024,
+    1536
+  ],
+  "layer_files": [
+    "head_base.png",
+    "neck.png",
+    "torso.png",
+    "upperarm_l.png",
+    "forearm_l.png",
+    "upperarm_r.png",
+    "forearm_r.png",
+    "thigh_l.png",
+    "lower_leg_l.png",
+    "boot_l.png",
+    "thigh_r.png",
+    "lower_leg_r.png",
+    "boot_r.png"
+  ],
+  "mapping_notes": {
+    "head_base.png": "Combined head, face and hair; do not assign separate hair bone yet.",
+    "torso.png": "Combined jacket and T-shirt; treat as one torso for smoke test only.",
+    "forearm_l.png": "Includes forearm and hand as one segment.",
+    "forearm_r.png": "Includes forearm and hand as one segment."
+  },
+  "known_blockers": [
+    "Concealed pixels behind joints are not reconstructed.",
+    "Independent hand and wrist pieces are absent.",
+    "Hair and facial elements are not separated.",
+    "Jacket and T-shirt are not separated.",
+    "No pivot coordinates are editor-verified.",
+    "No native Rigby2D project or motion render has been created."
+  ],
+  "instruction": "Import as a smoke test only. Do not mark rig-ready until Stage 2B exit criteria pass."
+}
