@@ -1,0 +1,28 @@
+{
+  "project": "Ready When It Matters / Male Character / Stage 2B prototype",
+  "canvas": {"width": 1024, "height": 1536, "color_space": "RGBA", "registration": "all sprites share master canvas origin"},
+  "coordinate_convention": "screen coordinates, origin top-left; pivots are estimated and must be visually tuned in the target editor",
+  "bones": [
+    {"name":"root","parent":null,"pivot":[512,730],"sprite":null},
+    {"name":"torso","parent":"root","pivot":[512,500],"sprite":"04_torso_jacket_front.png"},
+    {"name":"neck","parent":"torso","pivot":[506,275],"sprite":"03_neck.png"},
+    {"name":"head","parent":"neck","pivot":[503,228],"sprite":"01_head_base.png"},
+    {"name":"hair","parent":"head","pivot":[503,70],"sprite":"02_hair.png"},
+    {"name":"arm_screen_left_upper","parent":"torso","pivot":[306,382],"sprite":"05_left_upper_arm.png"},
+    {"name":"arm_screen_left_forearm","parent":"arm_screen_left_upper","pivot":[257,532],"sprite":"06_left_forearm.png"},
+    {"name":"arm_screen_left_hand","parent":"arm_screen_left_forearm","pivot":[171,765],"sprite":"07_left_hand.png"},
+    {"name":"arm_screen_right_upper","parent":"torso","pivot":[714,382],"sprite":"08_right_upper_arm.png"},
+    {"name":"arm_screen_right_forearm","parent":"arm_screen_right_upper","pivot":[764,536],"sprite":"09_right_forearm.png"},
+    {"name":"arm_screen_right_hand","parent":"arm_screen_right_forearm","pivot":[868,766],"sprite":"10_right_hand.png"},
+    {"name":"pelvis","parent":"root","pivot":[510,770],"sprite":"11_pelvis.png"},
+    {"name":"leg_screen_left_thigh","parent":"pelvis","pivot":[425,810],"sprite":"12_left_thigh.png"},
+    {"name":"leg_screen_left_lower","parent":"leg_screen_left_thigh","pivot":[389,1084],"sprite":"13_left_lower_leg.png"},
+    {"name":"leg_screen_left_boot","parent":"leg_screen_left_lower","pivot":[348,1315],"sprite":"16_left_boot.png"},
+    {"name":"leg_screen_right_thigh","parent":"pelvis","pivot":[599,810],"sprite":"14_right_thigh.png"},
+    {"name":"leg_screen_right_lower","parent":"leg_screen_right_thigh","pivot":[625,1085],"sprite":"15_right_lower_leg.png"},
+    {"name":"leg_screen_right_boot","parent":"leg_screen_right_lower","pivot":[653,1315],"sprite":"17_right_boot.png"}
+  ],
+  "draw_order_back_to_front": ["12_left_thigh.png","14_right_thigh.png","13_left_lower_leg.png","15_right_lower_leg.png","16_left_boot.png","17_right_boot.png","11_pelvis.png","05_left_upper_arm.png","06_left_forearm.png","07_left_hand.png","08_right_upper_arm.png","09_right_forearm.png","10_right_hand.png","04_torso_jacket_front.png","03_neck.png","01_head_base.png","02_hair.png"],
+  "facial_layer_status": "reference-only: do not composite facial feature extracts on top of 01_head_base until face underpainting and isolated feature masks are rebuilt",
+  "status": "PROTOTYPE_ONLY_NOT_FINAL_RIG"
+}
