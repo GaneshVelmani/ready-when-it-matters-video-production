@@ -1,0 +1,18 @@
+{
+  "canvas": [1024, 1536],
+  "stack_order_top_to_bottom": [
+    "01_head_base.png", "02_hair.png", "03_neck.png", "04_torso_jacket_front.png",
+    "05_left_upper_arm.png", "06_left_forearm.png", "07_left_hand.png",
+    "08_right_upper_arm.png", "09_right_forearm.png", "10_right_hand.png",
+    "11_pelvis.png", "12_left_thigh.png", "13_left_lower_leg.png",
+    "14_right_thigh.png", "15_right_lower_leg.png", "16_left_boot.png",
+    "17_right_boot.png", "male_master_transparent.png"
+  ],
+  "known_stack_conflicts": [
+    "head_base contains hair while hair is separately extracted",
+    "torso jacket includes shoulder/sleeve pixels also present in arm layers",
+    "hand masks contain disconnected alpha islands",
+    "concealed pixels are absent behind overlapping body parts"
+  ],
+  "usage": "Review/import checklist only. Resolve conflicts before enabling all layers."
+}
