@@ -1,0 +1,28 @@
+{
+  "package": "Rigby2D male character import candidate",
+  "status": "FIRST_PASS_NOT_RIGGING_READY",
+  "canvas": [1024, 1536],
+  "source": "Step2_Male_Character_Audited_Review_Package/png_layers",
+  "import_parts": [
+    "head_base.png", "hair.png", "neck.png", "torso_jacket_front.png",
+    "upperarm_l.png", "forearm_l.png", "hand_l.png",
+    "upperarm_r.png", "forearm_r.png", "hand_r.png",
+    "pelvis.png", "thigh_l.png", "lower_leg_l.png", "boot_l.png",
+    "thigh_r.png", "lower_leg_r.png", "boot_r.png"
+  ],
+  "facial_neutral_overlays": [
+    "face_eyebrows_neutral.png", "face_eyes_neutral.png",
+    "face_nose.png", "face_mouth_beard_neutral.png"
+  ],
+  "reference_only": ["reference_master_do_not_autorig.png"],
+  "known_issues": [
+    "Head base contains facial/hair details and hair layer duplicates some content",
+    "Hand layers contain disconnected alpha fragments",
+    "Hidden joint overlap is unverified",
+    "Jacket back and T-shirt are not split",
+    "No six-expression replacement set",
+    "No independent turnaround, accessory, hand-pose or boot-variant exports",
+    "No native .rigby project or pose test"
+  ],
+  "validation": "All candidate PNGs share 1024x1536 canvas and RGBA mode; rigging validity is not established."
+}
