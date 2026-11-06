@@ -1,17 +1,29 @@
 {
-  "package": "Male Character Production V3",
-  "status": "DESIGN_REFERENCE_AND_PRELIMINARY_CUTOUTS_ONLY",
-  "source_master": "User-approved 1024x1536 front-facing character image",
-  "reference_panels": [
-    "01_turnaround_reference.png",
-    "02_facial_expressions_reference.png",
-    "03_head_face_torso_reference.png",
-    "04_arm_segmentation_reference.png",
-    "05_leg_segmentation_reference.png",
-    "06_hand_variations_reference.png",
-    "07_boot_variations_reference.png",
-    "08_accessories_reference.png"
+  "package": "Ready When It Matters — Male Character Step 2",
+  "version": "2.0-review",
+  "status": "PARTIAL_NOT_RIGGING_READY",
+  "source": "Approved flattened front-facing male character master",
+  "canvas": [
+    1024,
+    1536
   ],
-  "final_rigging_ready": false,
-  "reason": "Individual isolated transparent variant assets and hidden joint reconstructions are not yet complete."
+  "included": [
+    "male_character_rebuild_v2.ora",
+    "male_master_transparent.png",
+    "17 first-pass body-part PNG cutouts",
+    "approximate facial crop PNGs",
+    "turnaround and design-reference panels",
+    "preview and validation report"
+  ],
+  "missing_or_unvalidated": [
+    "authored turnaround production layers",
+    "isolated expression variants",
+    "isolated accessory assets",
+    "hidden joint reconstruction",
+    "pivot metadata",
+    "gap-free deformation tests",
+    "native Krita KRA save verification",
+    "animation application import test"
+  ],
+  "binary_assets": "Distributed in Step2_Male_Character_Review_Package.zip; not included in this documentation-only commit."
 }

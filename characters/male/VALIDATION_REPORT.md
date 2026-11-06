@@ -1,34 +1,39 @@
-# Male Character Production V3 — Validation Report
+# Male Character Step 2 — Validation Report
 
-## Delivered in the working package
-- Consolidated character design reference sheet.
-- Cropped reference panels for turnaround, expressions, head/face/torso, arm segmentation, leg segmentation, hand poses, boot views and accessories.
-- Preliminary V2 cutouts and an OpenRaster project retained as working source material.
+## Result
+**PARTIAL — NOT APPROVED FOR RIGGING.**
 
-## Validation outcome
-**NOT RIGGING-READY.** This is a design/reference build plus preliminary extracted cutouts, not a validated final rig.
+## Present in the review package
+- Approved front-facing male master.
+- 17 first-pass full-canvas cutouts: head base, hair, neck, jacket torso, upper arms, forearms, hands, pelvis, thighs, lower legs and boots.
+- Approximate facial crops for eyes, eyebrows, nose and mouth/beard.
+- OpenRaster layered project for Krita.
+- Reference panels for turnaround, expressions, segmentation, hand poses, boot views and accessories.
 
-## Outstanding work
-The approved master is a single flattened front-facing character. It cannot supply authentic hidden surfaces, rear/side views, alternate facial poses, hand poses or boot angles. The design sheet's panels are references, not independently isolated transparent production layers.
+## Missing or unvalidated
+- Authored production layers for 3/4 front, side-left, side-right, 3/4 back and back views.
+- Six isolated facial expression variants.
+- Separate jacket front/back and T-shirt layers with occlusion reconstruction.
+- Hidden joint extensions at shoulder, elbow, wrist, hip, knee and ankle.
+- Separate accessory PNGs (backpack, compass, neckband, headlamp, rope coil and canteen).
+- Separate alternate hand-pose and boot-angle PNGs.
+- Pivot coordinates, deformation poses and animation-tool test results.
+- Native Krita `.kra` save/open verification.
 
-The preliminary PNG masks still need:
-- clean silhouette and mask refinement;
-- separate jacket-front, jacket-back and T-shirt artwork;
-- isolated eyes, eyebrows, nose, mouth and beard layers;
-- reconstructed shoulder, elbow, wrist, hip and knee overlap artwork;
-- independently drawn alternate expressions, hand poses and boot views;
-- turnaround drawings checked against the approved face, costume, proportions and palette;
-- pivot and deformation tests in Krita and the selected animation application.
+## Checks performed
+- PNG cutout files are 1024 × 1536 RGBA.
+- Alpha channels contain transparent and opaque pixels.
+- Visual contact-sheet inspection shows rough cut boundaries and facial crops that are not yet independent animation-ready features.
+- No assertion is made that joint rotations are gap-free.
 
-## Acceptance criteria
-1. Each required body part/variant is an individual transparent PNG.
-2. All rig parts share a canvas and have named pivots/overlap instructions.
-3. No transparent gaps appear during intended joint rotations.
-4. Face and costume match the approved master.
-5. Turnaround and alternate poses are approved against the master.
-6. The layered project opens and is tested in Krita; the rig is tested in the selected animation tool.
-
-## Package layout
-- `00_complete_asset_design_sheet.png`: consolidated reference sheet.
-- `01`–`08`: focused reference panels.
-- `preliminary_v2_cutouts/`: previous PNG masks and `.ora`, explicitly preliminary.
+## Required before Step 2 can be closed
+- [ ] Reconstruct hidden pixels and joint overlap areas.
+- [ ] Refine all silhouettes and export independent full-canvas PNGs.
+- [ ] Separate and author facial components and expression variants.
+- [ ] Author all turnaround views while preserving identity and costume.
+- [ ] Create separate accessory, hand-pose and boot-view assets.
+- [ ] Define pivots and overlap margins.
+- [ ] Test all joint rotations with no transparent gaps.
+- [ ] Save and reopen a native `.kra` in Krita.
+- [ ] Import and test in the selected animation tool.
+- [ ] Obtain user approval of final sheet and test poses.
