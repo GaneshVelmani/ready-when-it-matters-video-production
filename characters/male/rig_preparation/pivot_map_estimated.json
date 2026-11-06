@@ -1,0 +1,28 @@
+{
+  "canvas": {"width": 1024, "height": 1536, "origin": "top-left", "units": "pixels"},
+  "coordinate_status": "ESTIMATED_FROM_FRONT_REFERENCE_NOT_EDITOR_VERIFIED",
+  "joint_pivots": {
+    "neck": {"x": 512, "y": 248, "confidence": "medium"},
+    "left_shoulder": {"x": 365, "y": 354, "confidence": "medium"},
+    "right_shoulder": {"x": 659, "y": 354, "confidence": "medium"},
+    "left_elbow": {"x": 286, "y": 520, "confidence": "low"},
+    "right_elbow": {"x": 738, "y": 520, "confidence": "low"},
+    "left_wrist": {"x": 216, "y": 690, "confidence": "low"},
+    "right_wrist": {"x": 808, "y": 690, "confidence": "low"},
+    "left_hip": {"x": 447, "y": 728, "confidence": "medium"},
+    "right_hip": {"x": 577, "y": 728, "confidence": "medium"},
+    "left_knee": {"x": 398, "y": 1037, "confidence": "medium"},
+    "right_knee": {"x": 626, "y": 1037, "confidence": "medium"},
+    "left_ankle": {"x": 388, "y": 1286, "confidence": "medium"},
+    "right_ankle": {"x": 641, "y": 1286, "confidence": "medium"}
+  },
+  "rotation_smoke_tests_degrees": [-20, -10, 0, 10, 20],
+  "required_checks": [
+    "No transparent gaps at shoulder, elbow, wrist, hip, knee or ankle",
+    "No detached alpha islands or clipped fingers",
+    "No texture sliding across joints",
+    "No duplicate hair/head silhouette",
+    "Neutral composite matches approved master at 100% zoom"
+  ],
+  "warning": "Pivots are setup estimates only. Do not treat as validated rig coordinates."
+}
