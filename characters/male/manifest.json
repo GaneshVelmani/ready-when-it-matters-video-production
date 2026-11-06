@@ -1,39 +1,32 @@
 {
   "package": "Ready When It Matters — Male Character Step 2",
-  "version": "2.1-audited-review",
-  "status": "HOLD_NOT_RIGGING_READY",
-  "source": "Approved flattened front-facing male character master",
-  "canvas": [
-    1024,
-    1536
-  ],
-  "included": [
-    "male_character_rebuild_v2.ora",
-    "male_master_transparent.png",
-    "17 first-pass body-part PNG cutouts",
-    "approximate facial crop PNGs",
-    "turnaround and design-reference panels",
-    "preview and validation report"
-  ],
-  "missing_or_unvalidated": [
-    "clean head base with no duplicated hair",
-    "jacket/T-shirt separation and hidden-pixel reconstruction",
-    "clean arm/hand cutouts and joint overlap reconstruction",
-    "six independently authored turnaround views",
-    "six isolated facial expression sets",
-    "six isolated accessory PNGs",
-    "seven isolated hand-pose PNGs",
-    "five isolated boot-angle PNGs",
-    "pivot metadata and joint deformation tests",
-    "native Krita KRA save/reopen verification",
-    "animation application import and rig test",
-    "final contact-sheet approval"
-  ],
-  "binary_assets": "Distributed in Step2_Male_Character_Review_Package.zip; not included in this documentation-only commit.",
-  "audit": {
-    "date": "2026-11-06",
-    "report": "STEP2_ASSET_AUDIT_2026-11-06.md",
-    "result": "22-layer ORA structure verified; alpha masks present; visual defects and major deliverables remain.",
-    "next_action": "Rebuild clean layered artwork and independently export missing turnaround, expression, accessory, hand-pose, and boot-angle assets."
-  }
+  "version": "2.2-stage-2a-static-qa",
+  "status": "STAGE_2A_STATIC_QA_PASS_STAGE_2B_PENDING",
+  "source": "User-approved flattened front-facing male character master",
+  "canvas": [1024, 1536],
+  "stage_2a": {
+    "result": "PASS_STATIC_EXTRACTION_ONLY",
+    "layers": 13,
+    "duplicate_alpha_ownership_pixels": 0,
+    "mean_rgb_difference_on_extracted_pixels": 0.0,
+    "exact_rgb_match_percent_on_extracted_pixels": 100.0,
+    "rough_foreground_pixels_outside_masks": 87,
+    "binary_package": "male_character_step2_assets.zip",
+    "layered_interchange": "male_character_layers.ora",
+    "preview": "layers_composite_preview.png",
+    "binary_files_committed": false,
+    "binary_commit_limitation": "Connected GitHub write actions available in this session support text blobs but do not expose direct binary upload."
+  },
+  "stage_2b": {
+    "status": "PENDING",
+    "required": [
+      "reconstruct concealed pixels behind joints",
+      "separate head, hair, facial features, jacket, shirt, pelvis and limbs",
+      "repair hand and boot cutouts",
+      "define and test pivots and overlap margins",
+      "author turnaround, expressions, hand poses, boot angles and accessories",
+      "test in the selected animation application"
+    ]
+  },
+  "signoff": "Do not mark Step 2 complete or rig-ready until Stage 2B acceptance tests pass."
 }
