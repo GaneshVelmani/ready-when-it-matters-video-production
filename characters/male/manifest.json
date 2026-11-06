@@ -1,7 +1,7 @@
 {
   "package": "Ready When It Matters — Male Character Step 2",
-  "version": "2.0-review",
-  "status": "PARTIAL_NOT_RIGGING_READY",
+  "version": "2.1-audited-review",
+  "status": "HOLD_NOT_RIGGING_READY",
   "source": "Approved flattened front-facing male character master",
   "canvas": [
     1024,
@@ -16,14 +16,24 @@
     "preview and validation report"
   ],
   "missing_or_unvalidated": [
-    "authored turnaround production layers",
-    "isolated expression variants",
-    "isolated accessory assets",
-    "hidden joint reconstruction",
-    "pivot metadata",
-    "gap-free deformation tests",
-    "native Krita KRA save verification",
-    "animation application import test"
+    "clean head base with no duplicated hair",
+    "jacket/T-shirt separation and hidden-pixel reconstruction",
+    "clean arm/hand cutouts and joint overlap reconstruction",
+    "six independently authored turnaround views",
+    "six isolated facial expression sets",
+    "six isolated accessory PNGs",
+    "seven isolated hand-pose PNGs",
+    "five isolated boot-angle PNGs",
+    "pivot metadata and joint deformation tests",
+    "native Krita KRA save/reopen verification",
+    "animation application import and rig test",
+    "final contact-sheet approval"
   ],
-  "binary_assets": "Distributed in Step2_Male_Character_Review_Package.zip; not included in this documentation-only commit."
+  "binary_assets": "Distributed in Step2_Male_Character_Review_Package.zip; not included in this documentation-only commit.",
+  "audit": {
+    "date": "2026-11-06",
+    "report": "STEP2_ASSET_AUDIT_2026-11-06.md",
+    "result": "22-layer ORA structure verified; alpha masks present; visual defects and major deliverables remain.",
+    "next_action": "Rebuild clean layered artwork and independently export missing turnaround, expression, accessory, hand-pose, and boot-angle assets."
+  }
 }
