@@ -1,0 +1,17 @@
+{
+  "package": "Male Character Production V3",
+  "status": "DESIGN_REFERENCE_AND_PRELIMINARY_CUTOUTS_ONLY",
+  "source_master": "User-approved 1024x1536 front-facing character image",
+  "reference_panels": [
+    "01_turnaround_reference.png",
+    "02_facial_expressions_reference.png",
+    "03_head_face_torso_reference.png",
+    "04_arm_segmentation_reference.png",
+    "05_leg_segmentation_reference.png",
+    "06_hand_variations_reference.png",
+    "07_boot_variations_reference.png",
+    "08_accessories_reference.png"
+  ],
+  "final_rigging_ready": false,
+  "reason": "Individual isolated transparent variant assets and hidden joint reconstructions are not yet complete."
+}
