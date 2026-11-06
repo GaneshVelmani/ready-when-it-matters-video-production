@@ -1,0 +1,33 @@
+{
+  "project": "Ready When It Matters",
+  "step": 2,
+  "asset": "male-character",
+  "design_status": "approved-locked",
+  "production_status": "hold-not-rig-ready",
+  "branch": "step2/male-character-staging",
+  "canvas": {"width": 1024, "height": 1536},
+  "working_document": "editable_krita_source/male_character_rebuild_v2.ora",
+  "native_krita_document": false,
+  "available": {
+    "transparent_master": true,
+    "body_part_pngs": 17,
+    "facial_component_pngs": 4,
+    "aligned_ora_layers": 22,
+    "turnaround_reference_views": 6,
+    "expression_reference_views": 6,
+    "accessory_reference_items": 6,
+    "hand_pose_reference_views": 7,
+    "boot_angle_reference_views": 5
+  },
+  "known_defects": [
+    "head base duplicates separate hair layer",
+    "torso and limb overlaps lack verified hidden-pixel reconstruction",
+    "hand cutouts contain disconnected alpha fragments",
+    "facial components lack six complete expression replacement sets",
+    "turnarounds are not independently exported assets",
+    "accessories are not individually exported transparent PNGs",
+    "hand and boot variations are not individually exported",
+    "pivots and joint deformation are not validated"
+  ],
+  "acceptance": "Do not mark Step 2 complete until rebuild and validation report pass."
+}
