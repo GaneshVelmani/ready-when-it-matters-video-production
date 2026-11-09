@@ -1,0 +1,14 @@
+{
+  "audit": "OpenToonz import package structural preflight",
+  "canvas": [
+    1024,
+    1536
+  ],
+  "png_count": 22,
+  "all_import_layers_full_canvas_rgba": true,
+  "application_test": {
+    "status": "NOT RUN",
+    "reason": "OpenToonz executable unavailable in build environment"
+  },
+  "note": "Structural checks do not prove deformation quality or native OpenToonz scene compatibility."
+}

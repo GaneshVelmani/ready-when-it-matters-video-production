@@ -1,0 +1,68 @@
+{
+  "target_application": "OpenToonz",
+  "project": "Ready When It Matters — Male Character Stage 2B",
+  "canvas": {
+    "width": 1024,
+    "height": 1536,
+    "format": "RGBA",
+    "registration": "all import PNGs retain full-canvas coordinates"
+  },
+  "suggested_frame_rate": 24,
+  "arm_joint_overlap_px": 22,
+  "arm_pivots": {
+    "screen_left": {
+      "shoulder": [
+        340,
+        310
+      ],
+      "elbow": [
+        205,
+        540
+      ],
+      "wrist": [
+        145,
+        710
+      ]
+    },
+    "screen_right": {
+      "shoulder": [
+        684,
+        310
+      ],
+      "elbow": [
+        819,
+        540
+      ],
+      "wrist": [
+        879,
+        710
+      ]
+    }
+  },
+  "draw_order_back_to_front": [
+    "12_left_thigh.png",
+    "14_right_thigh.png",
+    "13_left_lower_leg.png",
+    "15_right_lower_leg.png",
+    "16_left_boot.png",
+    "17_right_boot.png",
+    "11_pelvis.png",
+    "05_left_upper_arm.png",
+    "06_left_forearm.png",
+    "07_left_hand.png",
+    "08_right_upper_arm.png",
+    "09_right_forearm.png",
+    "10_right_hand.png",
+    "04_torso_jacket_front.png",
+    "03_neck.png",
+    "01_head_base.png",
+    "02_hair.png"
+  ],
+  "facial_layers_status": "reference-only until clean face underpainting and replacement patches are rebuilt",
+  "validation": {
+    "png_preflight": "PASS — 22 full-canvas RGBA import layers",
+    "native_opentoonz_scene": "NOT RUN — executable unavailable",
+    "walking_cycle_in_opentoonz": "NOT RUN"
+  },
+  "source_package": "Ready_When_It_Matters_OpenToonz_Stage2B_Male_Import.zip"
+}
