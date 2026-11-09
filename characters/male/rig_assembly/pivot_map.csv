@@ -1,0 +1,16 @@
+control,parent,pivot_x_px,pivot_y_px,layer,notes
+root,,512,760,,global character transform
+pelvis,root,512,780,07_torso_jacket_shirt.png,torso/pelvis anchor; pelvis integrated with torso layer
+torso,root,512,510,07_torso_jacket_shirt.png,main body; use one transform for torso
+neck_head,torso,512,260,13_head_face_hair.png,head turn/tilt; head and hair intentionally unified
+neck,torso,512,280,12_neck.png,neck overlap; keep behind head
+arm_L_upper,torso,330,310,08_upper_arm_left.png,shoulder pivot; screen-left arm
+arm_L_forearm_hand,arm_L_upper,220,525,09_forearm_hand_left.png,elbow pivot; hand/thumb stay attached to forearm
+arm_R_upper,torso,690,310,10_upper_arm_right.png,shoulder pivot; screen-right arm
+arm_R_forearm_hand,arm_R_upper,790,525,11_forearm_hand_right.png,elbow pivot; hand/thumb stay attached to forearm
+leg_L_thigh,root,430,790,05_thigh_left.png,hip pivot; screen-left leg
+leg_L_lower,leg_L_thigh,390,1010,03_lower_leg_left.png,knee pivot
+leg_L_boot,leg_L_lower,350,1310,01_boot_left.png,ankle pivot
+leg_R_thigh,root,600,790,06_thigh_right.png,hip pivot; screen-right leg
+leg_R_lower,leg_R_thigh,635,1010,04_lower_leg_right.png,knee pivot
+leg_R_boot,leg_R_lower,660,1310,02_boot_right.png,ankle pivot
