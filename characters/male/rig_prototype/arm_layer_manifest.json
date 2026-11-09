@@ -1,0 +1,21 @@
+{
+  "asset_set": "Stage 2B corrected male arm segmentation",
+  "canvas": {"width": 1024, "height": 1536, "mode": "RGBA", "registration": "full-canvas; do not reposition layers"},
+  "coordinate_convention": "screen-left and screen-right as viewed in the front-facing reference",
+  "segments": {
+    "screen_left_upper_arm": {"file": "left_upper_arm.png", "pivot_shoulder": [340, 310], "pivot_elbow": [205, 540], "joint_overlap_px": 22},
+    "screen_left_forearm": {"file": "left_forearm.png", "pivot_elbow": [205, 540], "pivot_wrist": [145, 710], "joint_overlap_px": 22},
+    "screen_left_hand": {"file": "left_hand.png", "pivot_wrist": [145, 710], "joint_overlap_px": 22},
+    "screen_right_upper_arm": {"file": "right_upper_arm.png", "pivot_shoulder": [684, 310], "pivot_elbow": [819, 540], "joint_overlap_px": 22},
+    "screen_right_forearm": {"file": "right_forearm.png", "pivot_elbow": [819, 540], "pivot_wrist": [879, 710], "joint_overlap_px": 22},
+    "screen_right_hand": {"file": "right_hand.png", "pivot_wrist": [879, 710], "joint_overlap_px": 22}
+  },
+  "validation": {
+    "same_canvas": true,
+    "rgba_transparency": true,
+    "independent_upper_arm_forearm_hand": true,
+    "elbow_and_wrist_overlap": true,
+    "status": "corrected segmentation package generated; application-level rig motion retest still required"
+  },
+  "note": "The previous upper-arm layers contained sleeve-only pixels while forearm layers included hand pixels. The corrected package separates complete sleeve/upper-arm, elbow-to-wrist forearm, and wrist-to-fingertips hand regions."
+}
