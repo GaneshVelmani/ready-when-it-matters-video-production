@@ -1,0 +1,160 @@
+{
+  "project": "Ready When It Matters / Male Character / Step 2B rig assembly handoff",
+  "status": "EDITOR_ASSEMBLY_HANDOFF_NOT_NATIVE_EDITOR_VALIDATED",
+  "canvas": {
+    "width": 1024,
+    "height": 1536,
+    "origin": "top-left",
+    "all_layers_registered": true
+  },
+  "source": "User-approved corrected Step2B Rig v2 visual baseline; accepted 2026-11-09",
+  "controls": [
+    {
+      "id": "root",
+      "parent": null,
+      "pivot_px": [
+        512,
+        760
+      ],
+      "layer": null
+    },
+    {
+      "id": "torso",
+      "parent": "root",
+      "pivot_px": [
+        512,
+        510
+      ],
+      "layer": "07_torso_jacket_shirt.png"
+    },
+    {
+      "id": "neck_head",
+      "parent": "torso",
+      "pivot_px": [
+        512,
+        260
+      ],
+      "layer": "13_head_face_hair.png"
+    },
+    {
+      "id": "neck",
+      "parent": "torso",
+      "pivot_px": [
+        512,
+        280
+      ],
+      "layer": "12_neck.png"
+    },
+    {
+      "id": "arm_L_upper",
+      "parent": "torso",
+      "pivot_px": [
+        330,
+        310
+      ],
+      "layer": "08_upper_arm_left.png"
+    },
+    {
+      "id": "arm_L_forearm_hand",
+      "parent": "arm_L_upper",
+      "pivot_px": [
+        220,
+        525
+      ],
+      "layer": "09_forearm_hand_left.png"
+    },
+    {
+      "id": "arm_R_upper",
+      "parent": "torso",
+      "pivot_px": [
+        690,
+        310
+      ],
+      "layer": "10_upper_arm_right.png"
+    },
+    {
+      "id": "arm_R_forearm_hand",
+      "parent": "arm_R_upper",
+      "pivot_px": [
+        790,
+        525
+      ],
+      "layer": "11_forearm_hand_right.png"
+    },
+    {
+      "id": "leg_L_thigh",
+      "parent": "root",
+      "pivot_px": [
+        430,
+        790
+      ],
+      "layer": "05_thigh_left.png"
+    },
+    {
+      "id": "leg_L_lower",
+      "parent": "leg_L_thigh",
+      "pivot_px": [
+        390,
+        1010
+      ],
+      "layer": "03_lower_leg_left.png"
+    },
+    {
+      "id": "leg_L_boot",
+      "parent": "leg_L_lower",
+      "pivot_px": [
+        350,
+        1310
+      ],
+      "layer": "01_boot_left.png"
+    },
+    {
+      "id": "leg_R_thigh",
+      "parent": "root",
+      "pivot_px": [
+        600,
+        790
+      ],
+      "layer": "06_thigh_right.png"
+    },
+    {
+      "id": "leg_R_lower",
+      "parent": "leg_R_thigh",
+      "pivot_px": [
+        635,
+        1010
+      ],
+      "layer": "04_lower_leg_right.png"
+    },
+    {
+      "id": "leg_R_boot",
+      "parent": "leg_R_lower",
+      "pivot_px": [
+        660,
+        1310
+      ],
+      "layer": "02_boot_right.png"
+    }
+  ],
+  "wrist_policy": "No independent wrist pivot in this build. Each hand and thumb remains attached to its forearm-hand sprite to prevent thumb clipping.",
+  "draw_order_back_to_front": [
+    "05_thigh_left.png",
+    "06_thigh_right.png",
+    "03_lower_leg_left.png",
+    "04_lower_leg_right.png",
+    "01_boot_left.png",
+    "02_boot_right.png",
+    "08_upper_arm_left.png",
+    "10_upper_arm_right.png",
+    "07_torso_jacket_shirt.png",
+    "09_forearm_hand_left.png",
+    "11_forearm_hand_right.png",
+    "12_neck.png",
+    "13_head_face_hair.png"
+  ],
+  "notes": [
+    "Pivots are initial estimates and must be visually calibrated in OpenToonz at 100% zoom.",
+    "Do not resize or crop registered PNG layers.",
+    "Native OpenToonz scene creation, save/reopen, and editor-side motion render remain unverified."
+  ]
+}
